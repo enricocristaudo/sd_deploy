@@ -26655,7 +26655,7 @@ apr(){var s=0,r=A.Y(t.Bx),q,p,o,n,m,l,k,j
 var $async$apr=A.Z(function(a,b){if(a===1)return A.V(b,r)
 while(true)switch(s){case 0:l=A.a([],t.wB)
 s=3
-return A.a1(A.Y9(A.fn("http://localhost:8000/sd/api/get_docenti.php"),B.j2),$async$apr)
+return A.a1(A.Y9(A.fn("https://www.sostituzionidocenti.com/enrico7878123/api/get_docenti.php"),B.j2),$async$apr)
 case 3:k=b
 j=B.bT.pb(0,A.Y7(A.XU(k.e).c.a.h(0,"charset")).ek(0,k.w),null)
 if(k.b===200)for(p=J.ao(j),o=0;o<p.gq(j);++o){n=p.h(j,o)
@@ -26669,7 +26669,7 @@ return A.X($async$apr,r)},
 aps(a){var s=0,r=A.Y(t.N),q,p,o,n,m
 var $async$aps=A.Z(function(b,c){if(b===1)return A.V(c,r)
 while(true)switch(s){case 0:s=3
-return A.a1(A.Y9(A.fn("http://localhost:8000/sd/api/get_id_from_giorno.php?data="+a),B.j2),$async$aps)
+return A.a1(A.Y9(A.fn("https://www.sostituzionidocenti.com/enrico7878123/api/get_id_from_giorno.php?data="+a),B.j2),$async$aps)
 case 3:n=c
 m=B.bT.pb(0,A.Y7(A.XU(n.e).c.a.h(0,"charset")).ek(0,n.w),null)
 if(n.b===200&&J.aqe(J.bs(m),0)){p=J.ao(m)
@@ -26688,7 +26688,7 @@ case 3:f=c
 s=f!==""?4:5
 break
 case 4:s=6
-return A.a1(A.Y9(A.fn("http://localhost:8000/sd/api/get_assenze.php?id="+f),B.j2),$async$Ya)
+return A.a1(A.Y9(A.fn("https://www.sostituzionidocenti.com/enrico7878123/api/get_assenze.php?id="+f),B.j2),$async$Ya)
 case 6:p=c
 o=B.bT.pb(0,A.Y7(A.XU(p.e).c.a.h(0,"charset")).ek(0,p.w),null)
 if(p.b===200)for(n=J.ao(o),m=0;m<n.gq(o);++m){l=n.h(o,m)
@@ -26723,7 +26723,7 @@ var $async$apt=A.Z(function(d,e){if(d===1)return A.V(e,r)
 while(true)switch(s){case 0:s=b!==7?3:4
 break
 case 3:s=5
-return A.a1(A.Y9(A.fn("http://localhost:8000/sd/api/get_num_docenti_per_giorno.php?gg="+b+"&orarioDefault="+c+"&gio="+a),B.j2),$async$apt)
+return A.a1(A.Y9(A.fn("https://www.sostituzionidocenti.com/enrico7878123/api/get_num_docenti_per_giorno.php?gg="+b+"&orarioDefault="+c+"&gio="+a),B.j2),$async$apt)
 case 5:p=e
 if(p.b===200){q=J.aR(B.bT.pb(0,A.Y7(A.XU(p.e).c.a.h(0,"charset")).ek(0,p.w),null),"num")
 s=1
@@ -84759,7 +84759,7 @@ e===$&&A.b()
 k.U(0,A.aK([h,g+" "+f+"-"+e],j,j))}d=A.a([],o)
 c=A.aK(["Content-type","application/json"],j,j)
 s=4
-return A.a1(A.Y9(A.fn("http://localhost:8000/sd/api/get_elenco_supplenze.php?data="+a4),c),$async$kp)
+return A.a1(A.Y9(A.fn("https://www.sostituzionidocenti.com/enrico7878123/api/get_elenco_supplenze.php?data="+a4),c),$async$kp)
 case 4:b=a6
 if(b.b===200){a=B.bT.pb(0,A.Y7(A.XU(b.e).c.a.h(0,"charset")).ek(0,b.w),null)
 o=J.ao(a)
